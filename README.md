@@ -31,7 +31,7 @@ SECRET_KEY=any_secure_random_string_here
 ### 4. Database Migrations
 Before running the app, you need to create the necessary database tables. Run the migration script:
 ```bash
-cd server
+cd migrations
 python migrate.py
 ```
 *(If the script lives in a `migrations` folder, run `cd migrations && python migrate.py` instead).*
